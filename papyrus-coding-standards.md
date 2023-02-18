@@ -4,7 +4,7 @@
 
 This specification defines a consistent standard for writing scripts in the Papyrus scripting language for The Elder Scrolls V: Skyrim and Fallout 4.
 
-### 1. Example
+## 1. Example
 
 The following is a short example that encompasses most of the rules set out in this document:
 
@@ -48,27 +48,27 @@ string function YetAnother(Weapon[] akWeaponArray)
 endfunction
 ```
 
-### 2. General
+## 2. General
 
-#### 2.1 Files
+### 2.1 Files
 
 All files should have the script declaration as the first line, and end with a single empty line.
 
-#### 2.2 Lines
+### 2.2 Lines
 
 There is a recommended limit of 120 characters per line.
 
 Blank lines may be added to improve readability, unless where explicitly forbidden.
 
-#### 2.3 Indentation
+### 2.3 Indentation
 
 Code must use an indent of 4 spaces for each indent level, and must not use tabs for indenting.
 
-#### 2.4 Keywords and Types
+### 2.4 Keywords and Types
 
 All papyrus [keywords](https://www.creationkit.com/index.php?title=Keyword_Reference), including functions, control statements, and events, must be in lower case. All object types must be in PascalCase.
 
-#### 2.5 Property/Variable Naming Convention
+### 2.5 Property/Variable Naming Convention
 
 Variable names should be meaningful and descriptive, with the exception of variables controlling the iteration of `while` statements, where the variable will often be named `i` or `j`, for example.
 
@@ -82,7 +82,7 @@ int some_int
 float my_float
 ```
 
-### 3. Script Headers
+## 3. Script Headers
 
 A script header can contain many blocks. Each block must be seperated by a single blank line. Each block MUST be in the order listed below, although blocks that are not relevant may be omitted.
 
@@ -91,9 +91,9 @@ A script header can contain many blocks. Each block must be seperated by a singl
 * Properties
 * Script variables
 
-### 4. Functions and Events
+## 4. Functions and Events
 
-#### 4.1 Function and Event Names
+### 4.1 Function and Event Names
 
 Functions and events must be declared after all script header blocks. When present, any initialising functions or events must be placed before any other functions/events.
 
@@ -112,7 +112,7 @@ string function GetName()
 endfunction
 ```
 
-#### 4.2 Function and Event Arguments
+### 4.2 Function and Event Arguments
 
 Arguments should follow the Bethesda nomenclature for function arguments:
 
@@ -134,7 +134,7 @@ Furniture function ThisIsALongFunctionDeclaration \
 endfunction
 ```
 
-### 5. Control structures
+## 5. Control structures
 
 * There must be one space after the control structure keyword
 * The control expression must be inside parenthesis
@@ -143,7 +143,7 @@ endfunction
 * The structure body must be indented once
 * The body must be on the next line after the preceeding statement
 
-#### 5.1 `if`, `else`, `elseif`
+### 5.1 `if`, `else`, `elseif`
 
 An if structure looks like the following. Note the placement of parentheses and spaces.
 
@@ -170,7 +170,7 @@ elseif (expression3)
 endif
 ```
 
-#### 5.2 `while`, `endwhile`
+### 5.2 `while`, `endwhile`
 
 A while statement looks like the following. Note the placement of parentheses and spaces.
 
