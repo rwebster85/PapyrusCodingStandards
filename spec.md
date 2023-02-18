@@ -130,7 +130,7 @@ Arguments should follow the Bethesda nomenclature for function arguments:
 
 a : Argument :: b : Bool :: f : Float :: i : Int :: s : String :: k : Form/Alias :: u : Unsigned
 
-For example, an integer argument name would being with 'ai'.
+For example, an integer argument name would begin with 'ai'.
 
 Argument lists may be split across multiple lines using a space (or multiple spaces for alignment) followed by a backslash. Where a function declaration has been split across multiple lines, for readability the opening and closing parenthesis should be on their own lines and not indented. For example:
 
