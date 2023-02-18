@@ -80,7 +80,7 @@ All papyrus [keywords](https://www.creationkit.com/index.php?title=Keyword_Refer
 
 Variable names should be meaningful and descriptive, with the exception of variables controlling the iteration of `while` statements, where the variable will often be named `i` or `j`, for example.
 
-Properties and variables for objects should be written in PascalCase. For all other types they should be written in snake case. For example:
+Properties and variables for objects should be written in `PascalCase`. For all other types they should be written in `snake_case`. For example:
 
 ```papyrus
 ObjectReference SomeRef
@@ -89,6 +89,8 @@ Spell Property MySpell auto
 int some_int
 float my_float
 ```
+
+If it is preferred to use a different casing standard, then that standard must be consistent across all scripts in the project.
 
 ## 3. Script Headers
 
