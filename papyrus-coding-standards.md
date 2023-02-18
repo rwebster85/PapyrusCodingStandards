@@ -46,6 +46,12 @@ string function YetAnother(Weapon[] akWeaponArray)
         return "foo"
     endif
 endfunction
+
+state MyState
+    ObjectReference function SampleFunction(string asStringParam, Form akFormToUse = none)
+        return none
+    endfunction
+endstate
 ```
 
 ## 2. General
@@ -195,4 +201,24 @@ while ( \
     ; do stuff
     i += 1
 endwhile
+```
+
+## 6. States
+
+State names should be in PascalCase. If a script contains an `auto` state, that state must preceed any other states in that script. An example of a script with states:
+
+```papyrus
+scriptname StateExampleScript extends Actor
+
+auto state DefaultStart
+    function SomeFunction(float afSomeNumber)
+        ; function body
+    endfunction
+endstate
+
+state AnotherState
+    function SomeFunction(float afSomeNumber)
+        ; override here
+    endfunction
+endstate
 ```
