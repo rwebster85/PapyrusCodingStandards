@@ -85,9 +85,9 @@ Variable names should be meaningful and descriptive, with the exception of varia
 Properties and variables for objects should be written in `PascalCase`. For all other types they should be written in `snake_case`. For example:
 
 ```papyrus
-ObjectReference SomeRef
 Spell Property MySpell auto
 
+ObjectReference SomeRef
 int some_int
 float my_float
 ```
@@ -155,7 +155,7 @@ endfunction
 * The structure body must be indented once
 * The body must be on the next line after the preceeding statement
 
-### 5.1 `if`, `else`, `elseif`
+### 5.1 `if`, `elseif`, `else`
 
 An if structure looks like the following. Note the placement of parentheses and spaces.
 
