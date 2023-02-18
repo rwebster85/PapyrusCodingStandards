@@ -60,7 +60,7 @@ endstate
 
 All files should have the script declaration as the first line, and end with a single empty line.
 
-All script names should be in PascalCase, althought scripts can be prefixed with a unique identifier if necessary to improved compatibility. For example, `_RW_ScriptName`.
+All script names should be in PascalCase, althought scripts can be prefixed with a unique identifier if necessary to improve compatibility. For example, `_RW_ScriptName`.
 
 ### 2.2 Lines
 
