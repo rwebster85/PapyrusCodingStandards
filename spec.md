@@ -140,7 +140,7 @@ Furniture function ThisIsALongFunctionDeclaration \
     ObjectReference akObjectRef1,                 \
     ObjectReference akObjectRef2,                 \
     bool abSomeBoolValue = true,                  \
-    int aiSomeInt = 10                              \
+    int aiSomeInt = 10                            \
 )
     ; function body
 endfunction
