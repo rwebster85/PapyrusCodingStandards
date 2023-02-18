@@ -4,7 +4,7 @@
 
 This specification defines a consistent standard for writing scripts in the Papyrus scripting language for The Elder Scrolls V: Skyrim and Fallout 4.
 
-## 1. Example
+## 1. Script Example
 
 The following is a short example that encompasses most of the rules set out in this document:
 
