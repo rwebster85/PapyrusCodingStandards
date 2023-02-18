@@ -60,6 +60,8 @@ There is a recommended limit of 120 characters per line.
 
 Blank lines may be added to improve readability, unless where explicitly forbidden.
 
+Blank lines must have no whitespace. Lines with comments or code must not have trailing whitespace.
+
 ### 2.3 Indentation
 
 Code must use an indent of 4 spaces for each indent level, and must not use tabs for indenting.
